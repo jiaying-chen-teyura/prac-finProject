@@ -330,11 +330,12 @@ button {
 
 .btn-primary {
   background: var(--color-accent);
-  color: var(--color-sidebar);
+  color: var(--color-text);
 }
 
 .btn-primary:hover {
   background: var(--color-accent-dark);
+  color:var(--color-text-inverse);
 }
 
 .btn-secondary {

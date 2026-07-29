@@ -6,28 +6,35 @@
 */
 
 :root {
-  /* ---- Color: surfaces ---- */
-  --color-bg: #F6F5F1;          /* main content background */
-  --color-surface: #FFFFFF;      /* cards, panels */
-  --color-sidebar: #1B1F27;      /* left nav background */
-  --color-sidebar-text: #B8BCC4; /* left nav inactive text */
-  --color-sidebar-text-active: #FFFFFF;
+    
+    
+    
+/* ---- Color: surfaces ---- */
+--color-bg: #f6f7f2;          /* main content background (light cream) */
+--color-surface: #FFFFFF;     /* cards, panels (white) */
+--color-sidebar: #3a6f6c;     /* left nav background (deep teal) */
+--color-sidebar-text: #b8e1e1; /* left nav inactive text (muted teal) */
+--color-sidebar-text-active: #FFFFFF; /* left nav active text (white) */
 
-  /* ---- Color: text ---- */
-  --color-text: #1B1F27;
-  --color-text-muted: #6B7280;
-  --color-text-inverse: #F6F5F1;
+/* ---- Color: text ---- */
+--color-text: #1E3A3A;        /* primary text (deep teal) */
+--color-text-muted: #6B7A7A;  /* muted text (gray-teal) */
+--color-text-inverse: #F9F7F4; /* inverse text (light cream) */
 
-  /* ---- Color: accents ---- */
-  --color-accent: #F2A93B;       /* signal amber - primary actions */
-  --color-accent-dark: #D6901F;
-  --color-teal: #2F9C93;         /* secondary accent / success */
-  --color-danger: #D6534A;
+/* ---- Color: accents ---- */
+--color-accent: #43c3ba;      /* primary accent (sage green) */
+--color-accent-dark: #197670; /* darker sage green */
+--color-teal: #8bcac5;        /* secondary accent (teal) */
+--color-danger: #D6534A;      /* danger/alert (soft red) */
 
-  /* ---- Borders ---- */
-  --color-border: #E3E1DA;
-  --color-border-dark: #2A303B;
+/* ---- Borders ---- */
+--color-border: #E8E6E0;      /* light border (cream-gray) */
+--color-border-dark: #2D4A4A; /* dark border (deep teal-gray) */
 
+  
+  
+
+  
   /* ---- Typography ---- */
   --font-display: 'Space Grotesk', 'Segoe UI', sans-serif;
   --font-body: 'Inter', 'Segoe UI', sans-serif;
