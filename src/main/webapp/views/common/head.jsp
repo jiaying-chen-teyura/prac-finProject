@@ -4,6 +4,12 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/variables.css">
-<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/main.css">
+<link rel="stylesheet" href="${pageContext.request.contextPath}/assets/css/variables.css">
+<link rel="stylesheet" href="${pageContext.request.contextPath}/assets/css/main.css">
+
+<!--<link rel="stylesheet"  href="<%= request.getContextPath() %>/resources/css/variables.css">
+<link rel="stylesheet"  href="<%= request.getContextPath() %>/resources/css/main.css">-->
+
+
+
 <title>CMSC</title>
